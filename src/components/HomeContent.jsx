@@ -1,11 +1,12 @@
-import image1 from "./assets/image1.avif";
-import image2 from "./assets/image2.avif";
-import image3 from "./assets/image3.avif";
-import image4 from "./assets/image4.avif";
-import image5 from "./assets/image5.avif";
-import image6 from "./assets/image6.avif";
+import { Link } from "react-router-dom";
+import image1 from "../assets/image1.avif";
+import image2 from "../assets/image2.avif";
+import image3 from "../assets/image3.avif";
+import image4 from "../assets/image4.avif";
+import image5 from "../assets/image5.avif";
+import image6 from "../assets/image6.avif";
 
-function Homepage() {
+function HomeContent() {
   return (
     <div>
       <div className="flex items-center space-x-4 p-4 pt-26">
@@ -19,14 +20,16 @@ function Homepage() {
             worldwide. Empowering economies, empowering education, empowering
             women.
           </p>
-          <button className="bg-black text-lg text-white px-6 py-3 rounded-full hover:bg-red-500 transition">
-            Get Involved
-          </button>
+          <Link to="/take-action">
+            <button className="bg-black text-lg text-white px-6 py-3 rounded-full hover:bg-red-500 transition">
+              Get Involved
+            </button>
+          </Link>
         </div>
         <img
           src={image1}
           alt="image"
-          className="h-116 object-cover rounded-xl shadow"
+          className="max-w-3/4 object-cover rounded-xl shadow"
         />
       </div>
       <div className="flex flex-wrap justify-between gap-6 p-6 px-36">
@@ -61,9 +64,11 @@ function Homepage() {
               economies, globally with period care and menstrual education so
               that no one has to suffer in silence.
             </p>
-            <button className="border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-200">
-              Learn More
-            </button>
+            <Link to="/about">
+              <button className="border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-200">
+                Learn More
+              </button>
+            </Link>
           </div>
           <img
             src={image2}
@@ -88,9 +93,11 @@ function Homepage() {
                 </li>
               </ul>
             </p>
-            <button className="border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-200">
-              Support Us
-            </button>
+            <Link to="/donate">
+              <button className="border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-200">
+                Support Us
+              </button>
+            </Link>
           </div>
         </div>
         <div className="flex flex-wrap items-start justify-center gap-8 p-6">
@@ -110,9 +117,11 @@ function Homepage() {
               Give your time, voice, and support and change someone’s world
               today.
             </p>
-            <button className="border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-200">
-              Act Now
-            </button>
+            <Link to="/take-action">
+              <button className="border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-200">
+                Act Now
+              </button>
+            </Link>
           </div>
           <img
             src={image4}
@@ -125,9 +134,11 @@ function Homepage() {
               Discover how one idea became a movement, and how you can be part
               of the story.
             </p>
-            <button className="border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-200">
-              Our Team
-            </button>
+            <Link to="/about">
+              <button className="border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-200">
+                Our Team
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -153,9 +164,11 @@ function Homepage() {
               menstrual product distribution and community service events
               monthly.
             </p>
-            <button className="border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-200">
-              Learn More
-            </button>
+            <Link to="/about">
+              <button className="border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-200">
+                Learn More
+              </button>
+            </Link>
           </div>
         </div>
         <div className="flex flex-wrap items-center gap-6 px-6">
@@ -170,9 +183,11 @@ function Homepage() {
               Collaborate with local pharmacies in developing economies with
               monthly bulk orders supporting developing economies
             </p>
-            <button className="border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-200">
-              Learn More
-            </button>
+            <Link to="/about">
+              <button className="border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-200">
+                Learn More
+              </button>
+            </Link>
           </div>
           <img
             src={image6}
@@ -199,9 +214,11 @@ function Homepage() {
               products to young women who need them, supporting the economy and
               keeping girls healthy, comfortable, and pursuing their education.
             </p>
-            <button className="border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-200">
-              Learn More
-            </button>
+            <Link to="/about">
+              <button className="border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-200">
+                Learn More
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -209,4 +226,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default HomeContent;

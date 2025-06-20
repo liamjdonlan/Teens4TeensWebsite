@@ -26,11 +26,11 @@ function Footer() {
               name="email"
               required
               placeholder="enter your email"
-              className="w-2/3 px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="text-black w-2/3 px-4 py-2 bg-white rounded-full focus:outline-none focus:ring-2 focus:ring-red-500"
             />
             <button
               type="submit"
-              className="w-1/3 bg-white text-black px-4 py-2 rounded-full hover:bg-red-500 hover:text-white transition"
+              className="w-1/3 border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors duration-200"
             >
               Subscribe
             </button>
