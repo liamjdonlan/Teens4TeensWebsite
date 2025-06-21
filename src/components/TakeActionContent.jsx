@@ -159,7 +159,7 @@ function TakeActionContent() {
               <textarea
                 name="motivation"
                 rows="4"
-                className="w-full border-b border-gray-300 focus:outline-none focus:border-red-500 px-1 py-2 resize-none"
+                className="w-full border-b focus:outline-none focus:border-red-500 px-1 py-2 resize-none"
               ></textarea>
             </div>
             <button
