@@ -15,10 +15,12 @@ The Teens 4 Teens Website includes:
 - **Take Action Page** — Provides a sign-up form for those interested in volunteering or becoming ambassadors.
 - **Footer on Every Page** — Contains contact information and a mailing list signup form.
 
+> ⚠️ **Note**: This repository only contains the **front-end code** for the website. Backend functionality (e.g., handling form submissions, storing sign-ups, sending emails) is not yet implemented.
+
 ## 🚀 Features
 
 - Responsive layout for various screen sizes (desktop and tablet-friendly)
-- Email list and contact forms
+- Email list and contact form UI (non-functional placeholders)
 - Smooth navigation with React Router
 - Modular component structure
 
