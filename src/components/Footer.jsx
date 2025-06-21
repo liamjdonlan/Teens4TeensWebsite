@@ -159,26 +159,28 @@ function Footer() {
               <p>info@teens4teens.net</p>
             </div>
           </div>
-          <div className="flex gap-4 justify-center p-4">
-            {/* Facebook */}
-            <button className="w-1/4 aspect-square p-4">
+          <div className="flex gap-4 justify-center">
+            <a
+              className="w-1/4 aspect-square p-4 border rounded-xl"
+              href="https://www.facebook.com/people/Teens-4-Teens/100091319527824/"
+            >
               <FaFacebookF className="w-full h-full" />
-            </button>
-
-            {/* X (Twitter) */}
-            <button className="w-1/4 aspect-square p-4">
+            </a>
+            <a className="w-1/4 aspect-square p-4 border rounded-xl" href="#">
               <FaXTwitter className="w-full h-full" />
-            </button>
-
-            {/* Instagram */}
-            <button className="w-1/4 aspect-square p-4">
+            </a>
+            <a
+              href="https://www.instagram.com/t4t_ig/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D#"
+              className="w-1/4 aspect-square p-4 border rounded-xl"
+            >
               <FaInstagram className="w-full h-full" />
-            </button>
-
-            {/* TikTok */}
-            <button className="w-1/4 aspect-square p-4">
+            </a>
+            <a
+              href="https://www.tiktok.com/@t4t_tt"
+              className="w-1/4 aspect-square p-4 border rounded-xl"
+            >
               <FaTiktok className="w-full h-full" />
-            </button>
+            </a>
           </div>
         </div>
       </div>

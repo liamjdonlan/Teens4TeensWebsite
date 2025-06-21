@@ -54,7 +54,7 @@ function TakeActionContent() {
             </p>
           </div>
         </div>
-        <div className="border-2 rounded-xl">
+        <div className="border rounded-xl">
           <div className="flex m-10 items-top">
             <div className="w-1/2">
               <h1 className="text-5xl font-bold">MAKE AN IMPACT.</h1>
