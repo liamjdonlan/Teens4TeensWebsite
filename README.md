@@ -8,7 +8,7 @@ A modern redesign of the existing Teens 4 Teens nonprofit website. This site hig
 
 ## 📄 Description
 
-The Teens 4 Teens Website includes:
+The website includes:
 
 - **Homepage** — An overview of the nonprofit's mission and impact.
 - **Donate Page** — Allows users to donate directly to the organization.
